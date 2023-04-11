@@ -12,10 +12,10 @@ const Main = () => {
   };
 
   return (
-    <div>
+    <main className="main">
       <SearchBar handleSearch={handleSearch} />
       <Card query={query} />
-    </div>
+    </main>
   );
 };
 
