@@ -14,8 +14,7 @@ const SearchContainer = () => {
     <div className="search-container">
       <div className="search-container__description">
         <h2 className="search-container__title">
-          No matter the
-          <span className="search-container__title-pink">Weather</span>
+          No matter the <span className="search-container__title-pink">Weather</span>
           <br />
           Become the best version of yourself
         </h2>
