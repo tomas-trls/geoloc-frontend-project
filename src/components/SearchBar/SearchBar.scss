@@ -9,6 +9,9 @@
   align-items: center;
   justify-content: space-between;
   &__input {
+    font-family: $font-main;
+    font-size: 14px;
+    font-weight: 700;
     background: rgba(255, 255, 255, 0.14);
     border-radius: 40px;
     color: $color-white;

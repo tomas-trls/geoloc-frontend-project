@@ -4,7 +4,7 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 15px 5%;
+  padding: 15px 10%;
   &__logo {
     color: $color-white;
     font-family: $font-main;
@@ -16,5 +16,11 @@
   &__settings-logo {
     filter: invert(99%) sepia(1%) saturate(1529%) hue-rotate(298deg) brightness(117%)
       contrast(100%);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    padding: 15px 5%;
   }
 }

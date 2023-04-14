@@ -9,11 +9,6 @@
   width: 80%;
   border-radius: 45px;
   border: none;
-  // background: linear-gradient(
-  //   268.29deg,
-  //   rgba(138, 81, 146, 1) 4.51%,
-  //   rgba(34, 39, 118, 1) 96.81%
-  // );
 
   background-color: transparent;
 
@@ -27,7 +22,7 @@
     transition: 300ms;
     transform: translateY(-5px);
 
-    font-family: "Satoshi-Variable";
+    font-family: $font-main;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;

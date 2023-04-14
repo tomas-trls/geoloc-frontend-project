@@ -14,13 +14,14 @@ const SearchContainer = () => {
     <div className="search-container">
       <div className="search-container__description">
         <h2 className="search-container__title">
-          No matter what the weather become the best version of yourself
+          No matter what the{" "}
+          <span className="search-container__title-pink">Weather</span>
+          <br />
+          Become the best version of yourself
         </h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime eum omnis
-          accusamus, sunt assumenda veritatis. Sequi, et architecto perspiciatis
-          temporibus quaerat alias, libero obcaecati, doloribus id maiores rem?
-          Neque, quidem?
+        <p className="search-container__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel ex nec
+          nisl lobortis tempus. Vivamus volutpat tincidunt erat et pellentesque.
         </p>
       </div>
       <SearchBar handleSearch={handleSearch} />
