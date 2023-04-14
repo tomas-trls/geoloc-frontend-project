@@ -1,0 +1,20 @@
+@use "../../assets/sass/abstract/variables" as *;
+@use "../../assets/sass/base/typography" as *;
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 5%;
+  &__logo {
+    color: $color-white;
+    font-family: $font-main;
+    letter-spacing: 0.165em;
+    font-size: calc(1rem + 1vw);
+    line-height: 83%;
+  }
+
+  &__settings-logo {
+    filter: invert(99%) sepia(1%) saturate(1529%) hue-rotate(298deg) brightness(117%)
+      contrast(100%);
+  }
+}

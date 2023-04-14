@@ -1,0 +1,19 @@
+.home {
+  background: linear-gradient(243.07deg, #222776 0.23%, #8a5192 99.14%),
+    url("../../assets/images/background-image.jpg");
+  background-size: auto 150%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-blend-mode: lighten;
+  background-position: 20% 40%;
+}
+
+@media screen and (min-width: 450px) {
+  .home {
+    background: linear-gradient(243.07deg, #222776 0.23%, #8a5192 99.14%),
+      url("../../assets/images/BackgroundImage.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+}

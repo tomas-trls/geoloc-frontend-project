@@ -1,0 +1,54 @@
+@use "../../assets/sass/abstract/variables" as *;
+@use "../../assets/sass/base/typography" as *;
+
+.button {
+  cursor: pointer;
+  height: 55px;
+  max-width: 400px;
+  min-width: 250px;
+  width: 80%;
+  border-radius: 45px;
+  border: none;
+  // background: linear-gradient(
+  //   268.29deg,
+  //   rgba(138, 81, 146, 1) 4.51%,
+  //   rgba(34, 39, 118, 1) 96.81%
+  // );
+
+  background-color: transparent;
+
+  &-front {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+    transition: 300ms;
+    transform: translateY(-5px);
+
+    font-family: "Satoshi-Variable";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: $color-white;
+
+    background: linear-gradient(
+      268.29deg,
+      rgba(138, 81, 146, 0.408) 4.51%,
+      rgba(34, 39, 118, 0.352) 96.81%
+    );
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(25px);
+    border-radius: 45px;
+
+    &:hover {
+      transform: translateY(-10px);
+    }
+
+    &:active {
+      transform: translateY(-2px);
+    }
+  }
+}

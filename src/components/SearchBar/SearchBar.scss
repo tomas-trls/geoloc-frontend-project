@@ -1,0 +1,36 @@
+@use "../../assets/sass/abstract/variables" as *;
+@use "../../assets/sass/base/typography" as *;
+
+.searchbar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  &__input {
+    background: rgba(255, 255, 255, 0.14);
+    border-radius: 40px;
+    color: $color-white;
+    border: none;
+    height: 30px;
+    width: 226px;
+    text-align: center;
+
+    &::placeholder {
+      color: $color-white;
+    }
+
+    &:focus {
+      border-radius: 16px 16px 0px 0px;
+      border-bottom: 3px solid transparent;
+      outline: none;
+      border-image-slice: 1;
+      border-image-source: linear-gradient(
+        268.29deg,
+        rgba(138, 81, 146, 1) 4.51%,
+        rgba(34, 39, 118, 1) 96.81%
+      );
+    }
+  }
+}
