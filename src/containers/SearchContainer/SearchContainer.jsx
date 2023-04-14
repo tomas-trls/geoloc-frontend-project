@@ -25,7 +25,9 @@ const SearchContainer = () => {
         </p>
       </div>
       <SearchBar handleSearch={handleSearch} />
-      {query.length > 1 && <Navigate to="/dashboard" state={{ query }} />}
+      {query.length > 1 && (
+        <Navigate to="/geoloc-frontend-project/dashboard" state={{ query }} />
+      )}
     </div>
   );
 };

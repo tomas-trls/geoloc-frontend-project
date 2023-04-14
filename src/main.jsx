@@ -10,12 +10,12 @@ import Home from "./pages/Home/Home";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/geoloc-frontend-project/",
     element: <Home />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "/dashboard",
+    path: "/geoloc-frontend-project/dashboard",
     element: <Dashboard />,
   },
 ]);
