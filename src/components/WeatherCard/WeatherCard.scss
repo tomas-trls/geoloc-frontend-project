@@ -1,0 +1,26 @@
+@use "../../assets/sass/abstract/variables" as *;
+@use "../../assets/sass/base/typography" as *;
+
+.weather-card {
+  &__current {
+    color: $color-white;
+    font-family: $font-main;
+    display: grid;
+    grid-template-areas: "title" "location";
+    justify-items: center;
+  }
+
+  &__title {
+    grid-area: title;
+    gap: 10px;
+    font-size: calc(1rem + 0.5vw);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__country {
+    grid-area: location;
+  }
+}

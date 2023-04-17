@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Button from "../Button/Button";
 import "./SearchBar.scss";
 
-const SearchBar = ({ handleSearch }) => {
+const SearchBar = ({ handleSearch, isInNav }) => {
   return (
     <form className="searchbar" onSubmit={handleSearch}>
       <input
@@ -11,7 +11,7 @@ const SearchBar = ({ handleSearch }) => {
         type="text"
         placeholder="Type your location here..."
       />
-      <Button buttonType={"submit"} />
+      {!isInNav && <Button buttonType={"submit"} />}
     </form>
   );
 };

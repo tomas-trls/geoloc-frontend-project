@@ -4,6 +4,7 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 15px 10%;
   &__logo {
     color: $color-white;

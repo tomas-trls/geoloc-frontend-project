@@ -1,0 +1,10 @@
+.weather-container {
+}
+
+@media screen and (min-width: 768px) {
+  .weather-container {
+    &__mobile {
+      display: none;
+    }
+  }
+}
