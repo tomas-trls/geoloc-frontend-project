@@ -46,7 +46,6 @@ const Carousel = ({ weatherData, isCurrentData, isForecast }) => {
       setData(weatherData);
     }
   }, [weatherData]);
-  console.log(data);
   return (
     <>
       {isCurrentData && (
