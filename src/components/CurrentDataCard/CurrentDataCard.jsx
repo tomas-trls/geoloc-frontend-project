@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import moon from "../../assets/images/moon.svg";
 import airQualityVector from "../../assets/images/vectorAirQuality.svg";
 import "./CurrentDataCard.scss";
 
@@ -51,6 +52,11 @@ const CurrentDataCard = ({ weatherData, isAirData, isMoonPhase, isRiskOfRain }) 
           {isMoonPhase && (
             <div className="current-card">
               <h3 className="current-card__title">Moon Phase</h3>
+              <img
+                src={moon}
+                alt="moon phase icon"
+                className="current-card__image"
+              />
               <p className="current-card__data--desc">
                 {weatherData.forecast.forecastday[0].astro.moon_phase}
               </p>

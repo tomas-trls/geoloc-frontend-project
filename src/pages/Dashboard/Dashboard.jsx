@@ -21,7 +21,6 @@ const Dashboard = () => {
   };
 
   navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
-
   const fetchData = async () => {
     try {
       const path = `https://api.weatherapi.com/v1/forecast.json?key=${
