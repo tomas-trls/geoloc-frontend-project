@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import ForecastContainer from "../../containers/ForecastContainer/ForecastContainer";
 import NavBar from "../../containers/NavBar/NavBar";
+import Todo from "../../containers/Todo/Todo";
 import WeatherCardContainer from "../../containers/WeatherCardContainer/WeatherCardContainer";
 
 const Dashboard = () => {
@@ -50,6 +51,7 @@ const Dashboard = () => {
       <NavBar />
       <WeatherCardContainer weatherData={weatherData} />
       <ForecastContainer weatherData={weatherData} />
+      <Todo />
     </div>
   );
 };
