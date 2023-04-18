@@ -16,27 +16,31 @@ The aim of this Project was to create a weather Api app that returns to the user
 - Creative Design
 - Fully responsive design
 
-## 🖥️ Demo
+## 🦦 Demo
 
 <div align="center">
 <a  href="https://tomas-trls.github.io/geoloc-frontend-project">[Live Demo]</a>
 </div>
 
-### Desktop
 
-![Desktop Demo of the project](http://g.recordit.co/rSWBzDsdSl.gif)
+<div align="center">
 
-### Mobile 
+  ### 🖥️ <ins>Desktop</ins>
+  
+![Desktop Demo of the project](dekstopWeatherWise.gif)
 
-![Mobile demo of the Project]()
+  ### 📱 <ins>Mobile</ins>
 
+  ![Mobile demo of the Project](mobileWeatherWide.gif)
+</div>
+  
 ## 🛠️ Installation
 
 To run the app locally, please follow these steps:
 
 - Clone the repository to your local machine.
 - Install the necessary dependencies using npm install.
-- Get your own API key in the <a> href="https://www.weatherapi.com/">Weather API site</a>.
+- Get your own API key in the <a href="https://www.weatherapi.com/">Weather API site</a>.
 - Create and update the ```.env``` file with ```VITE_WEATHER_API_KEY="YOUR_API_KEY"```
 - Start the server using npm run dev.
 - Open http://localhost:5173/geoloc-frontend-project/ in your web browser.
